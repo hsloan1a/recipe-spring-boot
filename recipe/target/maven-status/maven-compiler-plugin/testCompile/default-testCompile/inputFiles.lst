@@ -1,0 +1,4 @@
+/recipe/src/test/java/com/recipeexample/demo/controller/RecipeControllerTest.java
+/recipe/src/test/java/com/recipeexample/demo/RecipeApplicationE2eTests.java
+/recipe/src/test/java/com/recipeexample/demo/service/RecipeServiceTest.java
+/recipe/src/test/java/com/recipeexample/demo/DemoRecipeApplicationTests.java

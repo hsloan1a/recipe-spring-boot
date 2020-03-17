@@ -1,0 +1,8 @@
+/recipe/src/main/java/com/recipeexample/demo/model/AmountCatagory.java
+/recipe/src/main/java/com/recipeexample/demo/model/Ingredient.java
+/recipe/src/main/java/com/recipeexample/demo/serializer/AmountCatagorySerializer.java
+/recipe/src/main/java/com/recipeexample/demo/DemoRecipeApplication.java
+/recipe/src/main/java/com/recipeexample/demo/service/RecipeService.java
+/recipe/src/main/java/com/recipeexample/demo/controller/RecipeController.java
+/recipe/src/main/java/com/recipeexample/demo/model/RecipeRepository.java
+/recipe/src/main/java/com/recipeexample/demo/model/Recipe.java

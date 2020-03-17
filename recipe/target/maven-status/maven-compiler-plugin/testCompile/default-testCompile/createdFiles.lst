@@ -1,0 +1,4 @@
+com/recipeexample/demo/controller/RecipeControllerTest.class
+com/recipeexample/demo/RecipeApplicationE2eTests.class
+com/recipeexample/demo/service/RecipeServiceTest.class
+com/recipeexample/demo/DemoRecipeApplicationTests.class

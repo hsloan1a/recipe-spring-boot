@@ -1,0 +1,10 @@
+com/recipeexample/demo/serializer/AmountCatagorySerializer.class
+com/recipeexample/demo/model/Recipe.class
+com/recipeexample/demo/serializer/AmountCatagorySerializer$AmountCatagoryJsonDeserializer.class
+com/recipeexample/demo/DemoRecipeApplication.class
+com/recipeexample/demo/model/Ingredient.class
+com/recipeexample/demo/controller/RecipeController.class
+com/recipeexample/demo/service/RecipeService.class
+com/recipeexample/demo/model/RecipeRepository.class
+com/recipeexample/demo/serializer/AmountCatagorySerializer$AmountCatagoryJsonSerializer.class
+com/recipeexample/demo/model/AmountCatagory.class

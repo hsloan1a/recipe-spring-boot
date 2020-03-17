@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  spring-boot:
+    container_name: recipe-micro-service
+    build: .
+    command: mvn spring-boot:run -Dagentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:4000
+    volumes:
+      - ./recipe:/recipe
+    ports:
+      - "4000:4000"
+    networks:
+      - your-network
+    links:
+      - mongo
+  mongo:
+    container_name: mongo-recipe
+    image: mongo
+    restart: always
+    ports:
+      - "27018:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: mypassword
+    networks:
+      - your-network
+networks:
+   your-network:
+    name: recipe

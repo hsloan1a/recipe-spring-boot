@@ -1,0 +1,9 @@
+FROM node:lts-slim
+RUN mkdir -p /client
+WORKDIR /client/
+COPY ./client/src /client/src
+COPY ./client/public /client/public
+COPY ./client/package.json /client/package.json
+RUN ls
+RUN npm install
+CMD ["npm", "start"]

@@ -13,6 +13,17 @@ services:
       - your-network
     links:
       - mongo
+  react-client:
+    container_name: react-client
+    build:
+      context: .
+      dockerfile: Nodedockerfile
+    volumes:
+      - ./client:/client
+    ports:
+      - "3000:3000"
+    networks:
+      - your-network
   mongo:
     container_name: mongo-recipe
     image: mongo
